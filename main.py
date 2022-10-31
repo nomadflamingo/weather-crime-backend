@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://weather-crime-frontend.herokuapp.com/"],
+    allow_origins=["https://weather-crime-frontend.herokuapp.com"],
 )
 
 models_stats = pd.read_csv('master_csv.csv')

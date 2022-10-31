@@ -66,7 +66,3 @@ def predict(year: int, crime_type: str, avg_temp: float, min_temp: float, max_te
             results[state] = None
 
     return results
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)

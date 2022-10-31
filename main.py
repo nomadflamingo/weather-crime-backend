@@ -18,6 +18,7 @@ states = ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'IA'
 crime_types = ['homicide', 'violent_crime', 'robbery', 'aggravated_assault', 'property_crime', 'burglary', 'larceny', 'motor_vehicle_theft']
 models = {}
 for crime_type in crime_types:
+    print("booting up...")
     models[crime_type] = {}
 
     for state in states:
